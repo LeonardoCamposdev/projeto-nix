@@ -1,0 +1,32 @@
+.introducao-bg{
+    background-color: var(--cor-0);
+}
+
+.introducao-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 100px;
+}
+
+.introducao-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.introducao-conteudo h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+.introducao-conteudo h1{
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+.introducao-conteudo p{
+    font-size: 0.8em;
+    margin-bottom: 16px;
+}

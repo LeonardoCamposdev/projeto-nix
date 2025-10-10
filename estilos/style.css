@@ -1,3 +1,6 @@
 @import "../estilos/global/global.css";
 @import "../estilos/global/utilidades/coloors.css";
 @import "../estilos/global/utilidades/typography.css";
+@import "../estilos/global/header.css";
+
+@import "../estilos/home/introducao.css";

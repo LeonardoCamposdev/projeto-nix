@@ -1,0 +1,35 @@
+.header-bg{
+    background-color: #FAFAFA;
+}
+
+.header-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 100px 20px 100px;
+}
+
+.header-conteudo{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+}
+
+.header-conteudo img{
+    width: 82px;
+}
+
+.header-menu{
+    display: flex;
+}
+
+.header-menu ul{
+    display: flex;
+    gap: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.header-menu ul a:hover{
+    color: var(--cor-2);
+}
