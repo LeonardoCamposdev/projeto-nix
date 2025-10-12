@@ -5,7 +5,7 @@
 .header-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 20px 20px 30px 20px;
+  padding: 30px 20px 30px 20px;
 }
 
 .header-conteudo {
@@ -14,7 +14,6 @@
   gap: 60px;
   align-items: center;
   justify-items: center;
-  align-items: baseline;
 }
 
 .header-conteudo img {
@@ -31,6 +30,12 @@
   font-size: 0.85rem;
   font-weight: 500;
 }
+
+
+.header-menu ul a{
+  font-size: 0.9rem;
+}
+
 
 .header-menu ul a:hover {
   color: var(--cor-2);

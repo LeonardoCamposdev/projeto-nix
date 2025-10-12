@@ -8,15 +8,28 @@
 }
 
 .introducao-conteudo {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 20px;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  position: relative;
 }
 
-.introducao-textos{
-    padding-left: 100px;
-    padding-bottom: 100px;
+.introducao-conteudo::before {
+  content: "";
+  display: inline-block;
+  background: url(../../images/baner-dec-left.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -20px;
+  z-index: 0;
+}
+
+.introducao-textos {
+  padding-left: 100px;
+  padding-bottom: 100px;
 }
 
 .introducao-conteudo h2 {
@@ -34,4 +47,59 @@
 .introducao-conteudo p {
   font-size: 1rem;
   margin-bottom: 16px;
+}
+
+.button-icon {
+  display: flex;
+  gap: 34px;
+  align-items: flex-start;
+}
+
+.img-span {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  align-self: center;
+}
+
+.button-icon span {
+  font-weight: 500;
+  position: relative;
+  z-index: 200;
+}
+
+.icon-telefone {
+  padding: 8px;
+  margin-right: 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  background: rgb(255, 104, 95);
+  background: linear-gradient(
+    105deg,
+    rgba(255, 104, 95, 1) 0%,
+    rgba(255, 144, 104, 1) 100%
+  );
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (max-width: 980px) {
+  .introducao-container {
+    margin: 0 auto;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .img-introducao img {
+    display: none;
+  }
+
+  .introducao-conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .introducao-textos {
+    padding-left: 40px;
+  }
 }

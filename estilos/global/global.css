@@ -33,6 +33,7 @@ img {
     border-radius: 20px;
     padding: 8px 20px;
     cursor: pointer;
+    z-index: 555;
 }
 
 .button-padrao1:hover{
@@ -46,6 +47,8 @@ img {
     border-radius: 20px;
     padding: 8px 20px;
     cursor: pointer;
+    position: relative;
+    z-index: 555;
 }
 
 .button-padrao2:hover{
