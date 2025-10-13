@@ -10,14 +10,14 @@
 
 .header-conteudo {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 60px;
   align-items: center;
   justify-items: center;
 }
 
 .header-conteudo img {
-  width: 82px;
+  max-width: initial;
 }
 
 .header-menu {
@@ -39,4 +39,19 @@
 
 .header-menu ul a:hover {
   color: var(--cor-2);
+}
+
+
+@media (max-width:980px){
+  .header-menu ul {
+    display: none;
+}
+
+ .header-conteudo .button-padrao1{
+  display: none;
+ }
+
+ .header-conteudo {
+  justify-content: space-around;
+}
 }
