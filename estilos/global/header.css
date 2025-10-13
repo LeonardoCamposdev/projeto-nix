@@ -47,7 +47,8 @@
     display: none;
 }
 
- .header-conteudo .button-padrao1{
+ .header-conteudo  .button-padrao1,
+ .header-conteudo .button-header-contato{
   display: none;
  }
 
