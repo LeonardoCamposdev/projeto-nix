@@ -1,11 +1,11 @@
 [data-menu="button"] {
-  display: block;
+  display: none;
 }
 
 @media (max-width: 835px) {
   .js [data-menu="button"] {
     display: flex;
-    background: linear-gradient(135deg, #FF695F 20%, #d1382d, #941309, #FF695F);
+    background: linear-gradient(135deg, #FF695F 20%, #d1382d, #e66057, #FF695F);
     border: none;
     padding: 18px 16px;
     border-radius: 4px;
@@ -41,13 +41,13 @@
     z-index: 200;
     right: 0;
     top: 115px;
-    padding: 18px 0px 0px;
+    padding: 0px 0px 0px;
     text-align: center;
     box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
   }
 
   .js [data-menu="list"] li{
-    padding: 12px;
+    padding: 14px;
     border-bottom: 1px solid #d7d4d4;
 
   }
