@@ -71,3 +71,9 @@
   font-size: 0.95rem;
   font-weight: 400;
 }
+
+.test-banner-direita{
+  position: absolute;
+  right: 0px;
+  bottom: -190px;
+}
