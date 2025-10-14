@@ -48,8 +48,8 @@
   box-shadow: 1px 0px 11px 0px #e7e7e7;
   background-color: white;
   border-radius: 16px;
-  height: 275px;
-  width: 400px;
+  height: 335px;
+  width: 300px;
   position: relative;
   z-index: 1;
 }
@@ -66,6 +66,7 @@
 }
 
 .servicos-lista p {
+  text-align: center;
   padding-top: 30px;
   border-top: 1px solid rgb(228, 227, 227);
   font-size: 0.95rem;
