@@ -4,6 +4,23 @@
   padding: 0px 20px 80px 20px;
 }
 
+.portfolio-conteudo{
+  position: relative;
+}
+
+.portfolio-conteudo::before{
+    content: "";
+    display: inline-block;
+    background: url(../../images/portfolio-left-dec.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    z-index: 0;
+}
+
 .portfolio-conteudo h1 {
   text-align: center;
 }
@@ -20,6 +37,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
+  position: relative;
+  z-index: 1;
 }
 
 .portfolio-lista img {
