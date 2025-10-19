@@ -1,0 +1,64 @@
+.planos-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 180px 20px;
+}
+
+.planos-conteudo h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.planos-conteudo h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #ff6a5f4f;
+  margin-bottom: 80px;
+}
+
+.planos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.planos-lista li {
+  background-image: url(../../images/first-plan-bg.png);
+  background-repeat: no-repeat;
+  padding: 30px;
+  box-shadow: 1px 0px 11px 0px #e7e7e7;
+  background-color: white;
+  border-radius: 48px;
+  height: 485px;
+  width: 390px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.planos-lista li h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.planos-lista li span {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.planos-lista li p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.planos-lista li p:last-child{
+  margin-bottom: 20px;
+}
