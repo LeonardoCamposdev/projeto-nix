@@ -31,7 +31,7 @@ form h1 {
   background: url(../../images/subscribe-dec.png);
   background-repeat: no-repeat;
   width: 20%;
-  height: 48%;
+  height: 50%;
   position: absolute;
   right: -84px;
   top: -15px;
@@ -63,6 +63,7 @@ input:first-child {
 
 input:nth-child(2) {
   margin-right: 200px;
+  width: 20%;
 }
 
 input::placeholder {
