@@ -1,0 +1,70 @@
+.pontuacao-seo-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 80px 20px;
+}
+
+.pontuacao-seo-conteudo {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.pontuacao-seo-conteudo form {
+  background-image: url(../../images/subscribe-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 300px;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+form h1 {
+  margin-bottom: 20px;
+}
+
+.pontuacao-seo-conteudo::before {
+  content: "";
+  display: inline;
+  background: url(../../images/subscribe-dec.png);
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 48%;
+  position: absolute;
+  right: -91px;
+  top: -23px;
+  z-index: 0;
+}
+
+.box-input {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 22px;
+  border-radius: 46px;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  background-color: var(--cor-0);
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+}
+
+input:first-child {
+  border-right: 1px solid #dfdede;
+  width: 40%;
+}
+
+input:nth-child(2) {
+  margin-right: 200px;
+}
+
+input::placeholder {
+  color: #8f8d8d;
+}

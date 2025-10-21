@@ -1,7 +1,22 @@
 .planos-container {
-  max-width: 1300px;
   margin: 0 auto;
-  padding: 0px 20px 180px 20px;
+  padding: 80px 20px 180px 20px;
+}
+
+.planos-conteudo {
+  position: relative;
+}
+
+.planos-conteudo::before {
+  content: "";
+  display: inline-block;
+  background: url(../../images/tables-left-dec.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 125%;
+  position: absolute;
+  left: -20px;
+  z-index: 0;
 }
 
 .planos-conteudo h1 {
@@ -21,18 +36,49 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
 }
 
-.planos-lista li {
+.planos-lista li:first-child {
   background-image: url(../../images/first-plan-bg.png);
   background-repeat: no-repeat;
   padding: 30px;
   box-shadow: 1px 0px 11px 0px #e7e7e7;
   background-color: white;
   border-radius: 48px;
-  height: 485px;
-  width: 390px;
+  background-size: cover;
+  height: 500px;
+  width: 410px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.planos-lista li:nth-child(2) {
+  background-image: url(../../images/second-plan-bg.png);
+  background-repeat: no-repeat;
+  padding: 30px;
+  box-shadow: 1px 0px 11px 0px #e7e7e7;
+  background-color: white;
+  border-radius: 48px;
+  background-size: cover;
+  height: 500px;
+  width: 410px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.planos-lista li:nth-child(3) {
+  background-image: url(../../images/third-plan-bg.png);
+  background-repeat: no-repeat;
+  padding: 30px;
+  box-shadow: 1px 0px 11px 0px #e7e7e7;
+  background-color: white;
+  border-radius: 48px;
+  background-size: cover;
+  height: 500px;
+  width: 410px;
   position: relative;
   z-index: 1;
   text-align: center;
@@ -49,7 +95,13 @@
 .planos-lista li span {
   font-size: 3rem;
   font-weight: 600;
-  margin-bottom: 20px;
+}
+
+.planos-lista .span-promo {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: line-through;
 }
 
 .planos-lista li p {
@@ -60,6 +112,13 @@
   color: #929191;
 }
 
-.planos-lista li p:last-child{
-  margin-bottom: 20px;
+.planos-lista li button {
+  margin-top: 30px;
+}
+
+.planos-conteudo > .test-banner-direita-planos {
+  position: absolute;
+  right: 0px;
+  right: -17px;
+  bottom: -190px;
 }
