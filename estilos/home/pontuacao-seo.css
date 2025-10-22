@@ -11,6 +11,8 @@
   position: relative;
 }
 
+
+
 .pontuacao-seo-conteudo form {
   background-image: url(../../images/subscribe-bg.png);
   background-repeat: no-repeat;
@@ -23,6 +25,10 @@
 
 form h1 {
   margin-bottom: 20px;
+}
+
+form .button-padrao1{
+  display: none;
 }
 
 .pontuacao-seo-conteudo::before {
@@ -124,7 +130,7 @@ input::placeholder {
     background-size: cover;
     border-radius: 46px;
     width: 80vw;
-    height: 50vh;
+    height: 60vh;
     padding: 60px 20px;
   }
 
@@ -134,14 +140,32 @@ input::placeholder {
 
   .box-input {
     padding: 25px 5px;
+    margin-bottom: 15px;
   }
 
   .box-input button {
     display: none;
   }
 
+  form .button-padrao1{
+  display: block;
+  margin-top: 20px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+  form .button-padrao1:hover{
+  background-color: var(--cor-2);
+}
+
   input:nth-child(2) {
     margin-right: 20px;
     width: 30%;
+  }
+}
+
+@media (max-width:585px){
+    .pontuacao-seo-conteudo form {
+    height: 63vh;
   }
 }

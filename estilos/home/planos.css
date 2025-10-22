@@ -122,3 +122,17 @@
   right: -17px;
   bottom: -190px;
 }
+
+@media (max-width:1250px){
+  .planos-lista {
+    gap: 24px;
+}
+
+  .planos-lista li:first-child,
+  .planos-lista li:nth-child(2),
+  .planos-lista li:nth-child(3){
+    height: 500px;
+    width: 340px;
+    background-color: aqua;
+  }
+}
