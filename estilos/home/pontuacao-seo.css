@@ -69,3 +69,52 @@ input:nth-child(2) {
 input::placeholder {
   color: #8f8d8d;
 }
+
+@media (max-width: 1445px) {
+  .pontuacao-seo-conteudo form {
+    width: 80vw;
+    height: 280px;
+    padding: 60px 0px;
+  }
+
+  .pontuacao-seo-conteudo::before {
+    right: -26px;
+    top: -15px;
+  }
+}
+
+@media (max-width: 1376px) {
+  .pontuacao-seo-conteudo form {
+    width: 80vw;
+    height: 280px;
+    padding: 60px 0px;
+  }
+
+  .pontuacao-seo-conteudo::before {
+    right: 2px;
+    top: -18px;
+  }
+
+  .box-input {
+    width: 90%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .pontuacao-seo-conteudo form {
+    width: 80vw;
+    height: 280px;
+    padding: 60px 0px;
+  }
+
+  .pontuacao-seo-conteudo::before {
+    right: 34px;
+    top: -15px;
+  }
+
+  .box-input {
+    width: 95%;
+    padding: 5px;
+  }
+}
