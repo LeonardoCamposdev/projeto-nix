@@ -19,7 +19,7 @@
   background-size: contain;
   width: 100vw;
   height: 280px;
-  padding: 60px 0px;
+  padding: 40px 0px;
   text-align: center;
 }
 
@@ -93,7 +93,7 @@ input::placeholder {
   .pontuacao-seo-conteudo form {
     width: 80vw;
     height: 280px;
-    padding: 60px 0px;
+    padding: 45px 0px;
   }
 
   .pontuacao-seo-conteudo::before {
