@@ -130,7 +130,7 @@ input::placeholder {
     background-size: cover;
     border-radius: 46px;
     width: 80vw;
-    height: 60vh;
+    height: 42vh;
     padding: 60px 20px;
   }
 
@@ -167,5 +167,11 @@ input::placeholder {
 @media (max-width:585px){
     .pontuacao-seo-conteudo form {
     height: 63vh;
+  }
+}
+
+@media (max-width: 585px) {
+  .pontuacao-seo-conteudo form {  
+    height: 42vh;
   }
 }
