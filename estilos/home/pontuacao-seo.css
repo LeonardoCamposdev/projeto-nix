@@ -170,6 +170,12 @@ input::placeholder {
 
 @media (max-width: 585px) {
   .pontuacao-seo-conteudo form {  
-    height: 42vh;
+    height: 53vh;
+  }
+}
+
+@media (max-width: 435px) {
+  .pontuacao-seo-conteudo form {  
+    height: 58vh;
   }
 }
