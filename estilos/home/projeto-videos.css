@@ -139,3 +139,11 @@ iframe {
     z-index: 1;
   }
 }
+
+@media (max-width: 450px) {
+  iframe {
+    width: 360px;
+    height: 500px;
+    z-index: 1;
+  }
+}
