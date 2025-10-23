@@ -1,0 +1,141 @@
+.projetos-videos-bg {
+  position: relative;
+}
+
+.projetos-videos-bg::before {
+  content: "";
+  display: inline-block;
+  background: url(../../images/videos-left-dec.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 125%;
+  position: absolute;
+  left: 0px;
+  z-index: 0;
+}
+
+.projetos-videos-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 80px 20px;
+}
+
+.projetos-videos-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 30px;
+}
+
+iframe {
+  display: block;
+  border-radius: 26px;
+  position: relative;
+}
+
+.span-projeto-iframe {
+  position: absolute;
+  z-index: 1;
+  padding: 32px 24px;
+  border-top-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 104, 95, 1) 0%,
+    rgba(255, 144, 104, 1) 100%
+  );
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.span-projeto-iframe .span-iframe-descricao {
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  margin-top: 10px;
+}
+
+.lista-projetos {
+  gap: 32px;
+  display: grid;
+  align-content: space-between;
+  z-index: 1;
+}
+
+.projetos-decoracao-right {
+  position: absolute;
+  right: -4px;
+  right: 21px;
+  top: -67px;
+}
+
+.lista-projetos img {
+  position: relative;
+  z-index: 0;
+  height: 150px;
+}
+
+.span-projeto {
+  position: absolute;
+  z-index: 1;
+  padding: 16px 34px;
+  border-top-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 104, 95, 1) 0%,
+    rgba(255, 144, 104, 1) 100%
+  );
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1315px) {
+  iframe {
+    width: 740px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 1220px) {
+  iframe {
+    width: 660px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .projetos-videos-conteudo {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  iframe {
+    width: 740px;
+    height: 500px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  iframe {
+    width: 520px;
+    height: 500px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 580px) {
+  iframe {
+    width: 460px;
+    height: 500px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 525px) {
+  iframe {
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+  }
+}
