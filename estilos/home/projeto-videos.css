@@ -34,7 +34,7 @@ iframe {
 
 .span-projeto-iframe {
   position: absolute;
-  z-index: 1;
+  z-index: 3;
   padding: 32px 24px;
   border-top-left-radius: 26px;
   border-bottom-right-radius: 26px;
