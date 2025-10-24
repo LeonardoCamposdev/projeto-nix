@@ -1,0 +1,117 @@
+.contato-bg {
+  position: relative;
+}
+
+.contato-bg::before {
+  content: "";
+  display: inline-block;
+  background: url(../../images/contact-left-dec.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  z-index: 0;
+}
+
+.contato-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 80px 20px;
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.contato-grid iframe {
+  height: 350px;
+  width: 630px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.contato-grid form {
+  background-image: url(../../images/contact-form-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 105px;
+  box-shadow: 1px 0px 11px 0px #e7e7e7;
+  border-radius: 26px;
+  z-index: 1;
+}
+
+.contato-grid form input {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px;
+  width: 80%;
+  border-right: initial;
+  border-bottom: 1px solid #8ddbff;
+  background-color: transparent;
+}
+
+.contato-grid form .button-contato {
+  font-size: 1rem;
+  margin-top: 30px;
+  background-color: var(--cor-2);
+  color: var(--cor-0);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  cursor: pointer;
+  z-index: 555;
+}
+
+.test-banner-direita-contato {
+  position: absolute;
+  right: 0px;
+  bottom: -240px;
+  z-index: 0;
+}
+
+@media (max-width: 1220px) {
+  .contato-conteudo h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    z-index: 1;
+  }
+
+  .contato-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 60px;
+  }
+
+  .contato-grid iframe {
+    height: 350px;
+    width: 630px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+  }
+
+  .contato-grid form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .contato-grid iframe {
+    width: 500px;
+  }
+}
+
+@media (max-width: 560px) {
+  .contato-grid iframe {
+    width: 420px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contato-grid iframe {
+    width: 390px;
+  }
+}
