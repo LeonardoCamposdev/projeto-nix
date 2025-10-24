@@ -121,3 +121,10 @@
     width: 390px;
   }
 }
+
+@media (max-width: 480px) {
+  .contato-grid iframe {
+    width: 350px;
+  }
+}
+
