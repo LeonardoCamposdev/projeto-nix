@@ -60,7 +60,7 @@ input {
   outline: none;
 }
 
-input:first-child {
+.box-input input:first-child {
   border-right: 1px solid #dfdede;
   width: 40%;
 }
