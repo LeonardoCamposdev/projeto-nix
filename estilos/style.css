@@ -3,6 +3,7 @@
 @import "../estilos/global/utilidades/typography.css";
 @import "../estilos/global/header.css";
 @import "../estilos/global/menu-mobile.css";
+@import "../estilos/global/footer.css";
 
 @import "../estilos/home/introducao.css";
 @import "../estilos/home/servicos.css";

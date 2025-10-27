@@ -78,6 +78,14 @@
   z-index: 0;
 }
 
+.contato-tel-mensagem {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  z-index: 5;
+  position: relative;
+}
+
 @media (max-width: 1220px) {
   .contato-conteudo h1 {
     text-align: center;
@@ -102,6 +110,11 @@
   .contato-grid form input {
     width: 100%;
   }
+
+  .contato-tel-mensagem {
+    margin-top: 40px;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 700px) {
@@ -113,6 +126,11 @@
 @media (max-width: 560px) {
   .contato-grid iframe {
     width: 420px;
+  }
+
+    .contato-tel-mensagem {
+      flex-direction: column;
+      gap: 26px;
   }
 }
 
@@ -127,4 +145,3 @@
     width: 350px;
   }
 }
-
