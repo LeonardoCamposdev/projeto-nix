@@ -18,7 +18,7 @@
 .footer-container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 200px 20px 80px 20px;
+  padding: 200px 20px 0px 20px;
 }
 
 .footer-conteudo {
@@ -95,6 +95,15 @@
   color: var(--cor-0);
 }
 
+.footer-creditos {
+  font-size: .9rem;
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 20px;
+  color: #bbb5b5;
+  border-top: 1px solid #e0e0e0a1;
+}
+
 @media (max-width: 900px) {
   .footer-conteudo {
     grid-template-columns: 1fr;
@@ -109,7 +118,7 @@
     margin-bottom: 10px;
   }
 
-  .footer-form{
+  .footer-form {
     width: 305px;
   }
 }
