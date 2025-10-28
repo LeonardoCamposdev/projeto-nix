@@ -128,9 +128,9 @@
     width: 420px;
   }
 
-    .contato-tel-mensagem {
-      flex-direction: column;
-      gap: 26px;
+  .contato-tel-mensagem {
+    flex-direction: column;
+    gap: 26px;
   }
 }
 
@@ -140,8 +140,16 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 440px) {
   .contato-grid iframe {
     width: 350px;
+  }
+
+  .contato-grid form {
+    padding: 50px 75px;
+  }
+
+  .contato-grid form input {
+    width: 120%;
   }
 }
