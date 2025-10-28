@@ -33,6 +33,10 @@
   margin-bottom: 20px;
 }
 
+.footer-conteudo a{
+  display: inline-block;
+}
+
 .footer-conteudo h1 {
   font-size: 1.1rem;
   font-weight: 700;
