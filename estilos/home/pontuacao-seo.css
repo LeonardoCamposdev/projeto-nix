@@ -25,7 +25,7 @@ form h1 {
   margin-bottom: 20px;
 }
 
-form .button-padrao1{
+form .button-padrao1 {
   display: none;
 }
 
@@ -72,6 +72,12 @@ input:nth-child(2) {
 
 input::placeholder {
   color: #8f8d8d;
+}
+
+.box-input input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+  box-shadow: 0 0 0px 1000px #fff inset !important;
+  -webkit-text-fill-color: #000 !important; /* cor do texto */
 }
 
 @media (max-width: 1445px) {
@@ -145,16 +151,16 @@ input::placeholder {
     display: none;
   }
 
-  form .button-padrao1{
-  display: block;
-  margin-top: 20px;
-  width: 95%;
-  margin: 0 auto;
-}
+  form .button-padrao1 {
+    display: block;
+    margin-top: 20px;
+    width: 95%;
+    margin: 0 auto;
+  }
 
-  form .button-padrao1:hover{
-  background-color: var(--cor-2);
-}
+  form .button-padrao1:hover {
+    background-color: var(--cor-2);
+  }
 
   input:nth-child(2) {
     margin-right: 20px;
@@ -162,20 +168,20 @@ input::placeholder {
   }
 }
 
-@media (max-width:585px){
-    .pontuacao-seo-conteudo form {
+@media (max-width: 585px) {
+  .pontuacao-seo-conteudo form {
     height: 63vh;
   }
 }
 
 @media (max-width: 585px) {
-  .pontuacao-seo-conteudo form {  
+  .pontuacao-seo-conteudo form {
     height: 53vh;
   }
 }
 
 @media (max-width: 435px) {
-  .pontuacao-seo-conteudo form {  
-    height: 58Svh;
+  .pontuacao-seo-conteudo form {
+    height: 58svh;
   }
 }

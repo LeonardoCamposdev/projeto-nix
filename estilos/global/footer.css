@@ -33,7 +33,7 @@
   margin-bottom: 20px;
 }
 
-.footer-conteudo a{
+.footer-conteudo a {
   display: inline-block;
 }
 
@@ -99,8 +99,16 @@
   color: var(--cor-0);
 }
 
+.footer-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #03A4ED inset !important;
+  box-shadow: 0 0 0px 1000px #03A4ED inset !important;
+  -webkit-text-fill-color: #000 !important; /* cor do texto */
+  border-top-right-radius: initial;
+  border-bottom-right-radius: initial;
+}
+
 .footer-creditos {
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
   margin-top: 80px;
   padding-top: 20px;
