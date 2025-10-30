@@ -4,6 +4,7 @@
 @import "../estilos/global/header.css";
 @import "../estilos/global/menu-mobile.css";
 @import "../estilos/global/footer.css";
+@import "../estilos/global/utilidades/animacoes-scroll.css";
 
 @import "../estilos/home/introducao.css";
 @import "../estilos/home/servicos.css";
