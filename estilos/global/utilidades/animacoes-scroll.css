@@ -83,7 +83,7 @@
 
 .js [data-anime="scroll-down-especial-1"] {
   opacity: 0;
-  transform: translate3d(0, -140px, 0);
+  transform: translate3d(0, -120px, 0);
   transition: 1.4s;
 }
 
@@ -95,7 +95,7 @@
 
 .js [data-anime="scroll-down-especial-2"] {
   opacity: 0;
-  transform: translate3d(0, -160px, 0);
+  transform: translate3d(0, -140px, 0);
   transition: 1.7s;
 }
 
