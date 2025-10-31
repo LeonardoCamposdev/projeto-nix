@@ -2,6 +2,7 @@ export function initAnimacaoScrollLeft() {
   const animacao = document.querySelectorAll('[data-anime="scroll-left"]');
   const animacaoespecial1 = document.querySelectorAll('[data-anime="scroll-left-especial-1"]');
   const animacaoespecial2 = document.querySelectorAll('[data-anime="scroll-left-especial-2"]');
+  const animacaoespecial3 = document.querySelectorAll('[data-anime="scroll-left-especial-3"]');
 
   const windowMetade = window.innerHeight * 0.8;
   function animaScroll() {
@@ -20,6 +21,13 @@ export function initAnimacaoScrollLeft() {
     });
 
     animacaoespecial2.forEach((item) => {
+      const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
+      if (distanciaTopo < 0) {
+        item.classList.add("ativo");
+      }
+    });
+
+    animacaoespecial3.forEach((item) => {
       const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
       if (distanciaTopo < 0) {
         item.classList.add("ativo");
@@ -62,9 +70,27 @@ export function initAnimacaoScrollUp() {
 
 export function initAnimacaoScrollDown() {
   const animacao = document.querySelectorAll('[data-anime="scroll-down"]');
+  const animacaoespecial1 = document.querySelectorAll('[data-anime="scroll-down-especial-1"]');
+  const animacaoespecial2 = document.querySelectorAll('[data-anime="scroll-down-especial-2"]');
+
   const windowMetade = window.innerHeight * 0.6;
   function animaScroll() {
     animacao.forEach((item) => {
+      const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
+      if (distanciaTopo < 0) {
+        item.classList.add("ativo");
+      }
+    });
+
+    animacaoespecial1.forEach((item) => {
+      const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
+      if (distanciaTopo < 0) {
+        item.classList.add("ativo");
+      }
+    });
+
+    
+    animacaoespecial2.forEach((item) => {
       const distanciaTopo = item.getBoundingClientRect().top - windowMetade;
       if (distanciaTopo < 0) {
         item.classList.add("ativo");
