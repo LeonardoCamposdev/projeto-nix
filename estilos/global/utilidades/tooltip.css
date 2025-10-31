@@ -3,7 +3,7 @@
     z-index: 500;
     background-image: url(../../../images/hover-bg.png);
     background-repeat: no-repeat;
-    padding: 10px;
+    padding: 50px 20px;
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -13,7 +13,7 @@
     border-bottom-right-radius: 22px;
     top: 0px;
     left: 0px;
-    text-align: center;
+    text-align: right;
     font-size: 1.3rem;
     font-weight: 500;
 }
