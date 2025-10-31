@@ -1,14 +1,19 @@
 .tooltip{
     position: absolute;
     z-index: 500;
-    background: rgba(0, 0, 0, .6);
-    box-shadow: 0 0 0 2px #fb5, 0 0 0 6px rgba(0, 0, 0, .6);
-    padding: .5rem;
+    background-image: url(../../../images/hover-bg.png);
+    background-repeat: no-repeat;
+
+    padding: 10px;
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
-    max-width: 875rem;
-    border-radius: 4px;
+    width: 200px;
+    height: 150px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
     top: 0px;
     left: 0px;
+    text-align: center;
 }
+
