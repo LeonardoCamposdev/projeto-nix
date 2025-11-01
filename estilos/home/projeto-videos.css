@@ -61,6 +61,10 @@ iframe {
   z-index: 1;
 }
 
+.lista-projetos li{
+  cursor: pointer;
+}
+
 .projetos-decoracao-right {
   position: absolute;
   right: -4px;

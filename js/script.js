@@ -1,7 +1,12 @@
 import initMenuMobile from "./modules/menu-mobile.js";
 import initPluginScroll from "./modules/plugin-scroll.js";
 import initTooltipBox from "./modules/tooltip.box.js";
-import initTrocarIframe from "./modules/trocar-iframe.js";
+import{
+  initTrocarIframe1,
+   initTrocarIframe2,
+   initTrocarIframe3,
+   initTrocarIframe4,
+} from "./modules/trocar-iframe.js";
 
 import {
   initAnimacaoScrollLeft,
@@ -13,7 +18,11 @@ import {
 initMenuMobile();
 initPluginScroll();
 initTooltipBox();
-initTrocarIframe();
+
+initTrocarIframe1();
+initTrocarIframe2();
+initTrocarIframe3();
+initTrocarIframe4();
 
 initAnimacaoScrollLeft();
 initAnimacaoScrollRight();
