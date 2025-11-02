@@ -45,6 +45,11 @@ iframe {
   );
   font-size: 1.25rem;
   font-weight: 700;
+  transition: opacity 0.5s ease;
+}
+
+.span-projeto-iframe.fade-out {
+  opacity: 0;
 }
 
 .span-projeto-iframe .span-iframe-descricao {
@@ -63,6 +68,7 @@ iframe {
 
 .lista-projetos li {
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .projetos-decoracao-right {

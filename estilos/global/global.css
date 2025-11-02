@@ -54,7 +54,7 @@ img {
   background-color: var(--cor-2);
 }
 
-.ativo-teste {
+.ativo-teste{
   height: 150px;
   border-radius: 26px;
   background: linear-gradient(
@@ -65,8 +65,9 @@ img {
 }
 
 .ativo-teste .span-projeto {
-  margin: 44px 100px;
+  margin: 44px 35px;
   background-color: initial;
+  transition: 0.5s;
 }
 
 .ativo-teste img {
