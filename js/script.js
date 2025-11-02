@@ -1,6 +1,8 @@
 import initMenuMobile from "./modules/menu-mobile.js";
 import initPluginScroll from "./modules/plugin-scroll.js";
 import initTooltipBox from "./modules/tooltip.box.js";
+import initAnimaNumeros from "./modules/anima-numero.js";
+
 import{
   initTrocarIframe1,
    initTrocarIframe2,
@@ -18,6 +20,7 @@ import {
 initMenuMobile();
 initPluginScroll();
 initTooltipBox();
+initAnimaNumeros();
 
 initTrocarIframe1();
 initTrocarIframe2();
