@@ -12,6 +12,7 @@ export function initTrocarIframe1() {
   function handleClick() {
     const novoVideo = "https://www.youtube.com/embed/JynGuQx4a1Y?start=3";
     iframeVideo.setAttribute("src", novoVideo);
+    
     video1.classList.add("ativo-teste");
     video2.classList.remove("ativo-teste");
     video3.classList.remove("ativo-teste");
