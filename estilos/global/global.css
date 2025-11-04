@@ -54,22 +54,6 @@ img {
   background-color: var(--cor-2);
 }
 
-.ativo-teste{
-  height: 150px;
-  border-radius: 26px;
-  background: linear-gradient(
-    105deg,
-    rgba(255, 104, 95, 1) 0%,
-    rgba(255, 144, 104, 1) 100%
-  );
-}
-
-.ativo-teste .span-projeto {
-  margin: 44px 35px;
-  background-color: initial;
-  transition: 0.5s;
-}
-
-.ativo-teste img {
-  display: none;
+html{
+  scroll-behavior: smooth;
 }
