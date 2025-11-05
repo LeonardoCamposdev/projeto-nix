@@ -50,6 +50,10 @@
   font-weight: 400;
 }
 
+.paragrafos-hover:hover {
+  color: var(--cor-2);
+}
+
 .footer-redes {
   display: flex;
   margin-top: 20px;
