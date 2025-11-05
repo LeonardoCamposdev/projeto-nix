@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 835px) {
+@media (max-width: 980px) {
   .js [data-menu="button"] {
     display: flex;
     background: linear-gradient(135deg, #FF695F 20%, #d1382d, #e66057, #FF695F);
